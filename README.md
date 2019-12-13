@@ -149,6 +149,7 @@
   | logit | sigmoid | softmax |
   | ----- | ------- | ------- |
   | ![logit](https://latex.codecogs.com/gif.latex?y%20%3D%20ln%7Bp%20%5Cover%201-p%7D) | <img src="https://latex.codecogs.com/svg.latex?\;p={1\over1-e^{-y}}" />  |   ![softmax](https://latex.codecogs.com/gif.latex?f%28y%29_i%20%3D%20%5Cfrac%7Be%5E%7By_i%7D%7D%7B%5Csum_%7Bk%3D1%7D%5E%7BN%7D%20e%5E%7By_k%7D%7D) |
+  
   <img src="https://latex.codecogs.com/svg.latex?\;y=a_0+\sum_{i=1}^{n}a_ix_i" />  (n = # of features)
 
 -----------------
