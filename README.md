@@ -68,10 +68,7 @@
   >   - GridSearchCV : depth와 split의 수를 여러가지 변수로 대입해서 정확도 확인
   >   - K-fold Cross Validation
 
------------------
-
 ----------
-
 
 
 ## 3. 유명한 딥러닝 알고리즘
@@ -148,25 +145,12 @@
 
 ### 3. logit, sigmoid, softmax
 
-- regression 을 classification으로 해주는 함수들
-
-* logit 
-
+- regression 을 classification으로 해주는 함수들  
+  
   | logit | sigmoid | softmax |
   | ----- | ------- | ------- |
-  | $y = ln{p \over 1-p}$ | $ p ={1 \over 1-e^{-y}} $ |         |
-  
-  
-
-$$
-y = ln{p \over 1-p}\\\\
-p = {1 \over 1-e^{-y}}\\\\
-y = a_0 + a_1x + a_2x^2 + ...
-$$
-
-
-
-* sigmoid
+  | ![logit](https://latex.codecogs.com/gif.latex?y%20%3D%20ln%7Bp%20%5Cover%201-p%7D) | <img src="https://latex.codecogs.com/svg.latex?\;p={1\over1-e^{-y}}" />  |   ![softmax](https://latex.codecogs.com/gif.latex?f%28y%29_i%20%3D%20%5Cfrac%7Be%5E%7By_i%7D%7D%7B%5Csum_%7Bk%3D1%7D%5E%7BN%7D%20e%5E%7By_k%7D%7D) |
+  <img src="https://latex.codecogs.com/svg.latex?\;y=a_0+\sum_{i=1}^{n}a_ix_i" />  
 
 -----------------
 
