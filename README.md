@@ -37,7 +37,7 @@
 
   > * regression(회귀) : 연속데이터
   >   - linear regression
-  >   - NN(Neural Network)
+  >   - NN(Neural Network)(ANN,DNN,perceptron)
   >   - Regulation(규제)
   >     - Ridge (L2)
   >     - Lasso (L1)
@@ -49,7 +49,6 @@
   >   - Ensemble
   >     - Random Forest
   >     - Gradient Tree Boosting
-  >   - ANN(Artificial Neural Network)
   >   - Linear Discriminant Analysis (선형판별분석) 
   
 * 비지도학습(cluster)
